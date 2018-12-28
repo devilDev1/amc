@@ -28,7 +28,7 @@ a {
 
 .main-header .logo {
 	padding: 15px 20px;
-	font-family: 'Raleway','Montserrat', sans-serif;
+	font-family: 'Bai Jamjuree','Raleway','Montserrat', sans-serif;
 }
 
 .navbar {
@@ -37,7 +37,7 @@ a {
 
 .nav-container {
 	list-style-type: none;
-	font-family: 'Raleway','Montserrat', sans-serif;
+	font-family: 'Bai Jamjuree','Raleway','Montserrat', sans-serif;
 	display: flex;
 	justify-content: space-between;
 }
