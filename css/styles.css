@@ -28,7 +28,7 @@ a {
 
 .main-header .logo {
 	padding: 15px 20px;
-	font-family: 'Bai Jamjuree Light';
+	font-family: 'Montserrat', sans-serif;
 }
 
 .navbar {
@@ -37,7 +37,7 @@ a {
 
 .nav-container {
 	list-style-type: none;
-	font-family: 'Bai Jamjuree';
+	font-family: 'Montserrat', sans-serif;
 	display: flex;
 	justify-content: space-between;
 }
