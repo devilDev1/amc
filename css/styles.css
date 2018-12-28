@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 17px;
+	line-height: 1.6em;
+}
+
+a {
+	text-decoration: none;
+	color:#000;
+}
+
+/******  TOP HEADER  ******/
+
+.main-header {
+	padding: 10px 20px;
+	background-image: linear-gradient(rgba(99, 89, 158, 0.8),rgba(99, 89, 158, 0));
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-header .logo {
+	padding: 15px 20px;
+	font-family: 'Bai Jamjuree Light';
+}
+
+.navbar {
+	flex-basis: 25%;
+}
+
+.nav-container {
+	list-style-type: none;
+	font-family: 'Bai Jamjuree';
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-container a:hover {
+	color: #fff;
+}
+
+.nav-container li {
+	padding: 15px 20px;
+}
+
+/******  SHOWCASE AREA  ******/
+
+.showcase {
+	background-image: url('../img/showcase.jpg');
+	height:100vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+}
+
+header .showcase h1 {
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.2em;
+}
+
+header .showcase a {
+	border: 2px solid #63599e;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+header .showcase a:hover {
+	background-color: #63599e;
+	color: #fff;
+}
+
+.current {
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	border-radius: 4px;
+}
+
+.current a {
+	color: #fff;
+}
+
