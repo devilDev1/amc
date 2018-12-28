@@ -18,6 +18,7 @@ a {
 
 .main-header {
 	padding: 10px 20px;
+	height: 10vh;
 	background-image: linear-gradient(rgba(99, 89, 158, 0.8),rgba(99, 89, 158, 0));
 	position: absolute;
 	left: 0;
@@ -43,7 +44,7 @@ a {
 }
 
 .nav-container a:hover {
-	color: #fff;
+	color: #fff;	
 }
 
 .nav-container li {
@@ -53,7 +54,7 @@ a {
 /******  SHOWCASE AREA  ******/
 
 .showcase {
-	background-image: url('https://doc-0k-6s-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/chs1rpa9488vr439d50sqi593ik9bme9/1545976800000/13014571552619064925/*/1DP-fUeFZufjFAFp_jL1FZLPxW5he7e_K');
+	background-image: url('../img/showcase.jpg');
 	height:100vh;
 	background-size: cover;
 	background-position: center;
@@ -65,16 +66,22 @@ a {
 }
 
 header .showcase h1 {
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	line-height: 1.2em;
+	margin-bottom: 10px;
 }
 
 header .showcase a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	letter-spacing: 1px;
 	border: 2px solid #63599e;
 	padding: 10px 20px;
 	border-radius: 10px;
 	margin-top: 10px;
+	transition: 0.3s;
 }
 
 header .showcase a:hover {
@@ -92,3 +99,9 @@ header .showcase a:hover {
 	color: #fff;
 }
 
+
+/***********    SERVICES    ***********/
+
+.container {
+	display: flex;
+}
